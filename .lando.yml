@@ -1,0 +1,14 @@
+name: fuus2025
+recipe: drupal10
+config:
+  webroot: web
+  php: '8.2'
+  xdebug: true
+services:
+  myadmin:
+    type: phpmyadmin
+    portforward: 8007
+  database:
+    portforward: 3308
+  mymailhog:
+    type: mailhog
