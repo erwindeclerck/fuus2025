@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for EDC General Purpose module.
+ */
+
+
+function edc_general_purpose_update_projects_alter(&$projects) {
+  // Hide all the site-specific modules from the list.
+  unset($projects['fuus2025']);
+  unset($projects['fuus2025_sass']);
+ // unset($projects['custom_spam_prevention']);
+}

@@ -1,0 +1,97 @@
+
+.field-field-event-time-slots {
+  //max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  counter-reset: num;
+
+  .field-title {
+  font-weight: bold;
+  }
+  .programitems {
+
+
+    .field-item {
+      &:nth-child(odd) {
+        background-color: #eee;
+      }
+
+      &:nth-child(even) {
+        background-color: #fff;
+      }
+
+    .layout.layout--onecol {
+      .layout__region.layout__region--content {
+
+
+          display: grid;
+          grid-template-columns: 2em 12fr 6fr  2fr 1fr 1fr;
+          grid-template-rows: auto;
+          grid-template-areas:
+          "counter subject speaker location start stop"
+          "description description description description description description ";
+          padding-bottom: 1em;
+
+        // create a serial number of the event
+          &:before {
+            content: counter(num);
+            counter-increment: num;
+            text-align: center;
+
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 0.5em;
+            margin-bottom: 1em;
+          }
+//descriptive title
+          .field.field-field-descriptive-title.field-type-string.field--label-hidden.field--field-descriptive-title-- {
+            font-weight: bold;
+            font-size: 1.2em;
+            padding: 0.5em;
+
+          }
+//speaker
+          .field.field-field-speaker.field-type-string.field--label-hidden.field--field-speaker-- {
+            text-decoration: underline;
+            padding: 0.5em;
+
+          }
+
+//location
+          .field.field-field-location.field-type-entity-reference.field--label-hidden.field--field-location-- {
+            font-style: italic;
+            padding: 0.5em;
+            a {
+              padding: 0.5em;
+              text-wrap: nowrap;
+  color:orangered;
+            }
+          }
+
+          .field.field-field-start-time.field-type-time.field--label-hidden.field--field-start-time-- {
+            font-weight: bold;
+            padding: 0.5em;
+
+          }
+
+          .field.field-field-end-time.field-type-time.field--label-hidden.field--field-end-time-- {
+            font-weight: bold;
+            padding: 0.5em;
+
+          }
+
+          .field.field-field-description.field-type-text-long.field--label-hidden.field--field-description-- {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            padding: 0.5em;
+
+            p {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

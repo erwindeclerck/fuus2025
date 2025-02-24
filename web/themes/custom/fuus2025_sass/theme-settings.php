@@ -161,6 +161,7 @@ function fuus2025_sass_form_system_theme_settings_alter(array &$form, FormState 
       'style-1' => t('Style 1'),
       'style-2' => t('Style 2'),
       'style-3' => t('Style 3'),
+      'style-fuus' => t('Style FUUS'),
     ],
   ];
   $form['flexi_header']['header_navbar_bg'] = [

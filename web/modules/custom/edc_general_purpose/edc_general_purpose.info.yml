@@ -1,0 +1,5 @@
+name: 'EDC General Purpose'
+type: module
+description: 'Misc functionalities'
+package: Custom
+core_version_requirement: ^10 || ^11
