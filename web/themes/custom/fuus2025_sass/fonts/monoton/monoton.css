@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+    src:     url('monoton-v20-latin_latin-ext-regular.woff2') format('woff2'), /* Super modern browsers */
+  url('monoton-v20-latin_latin-ext-regular.woff') format('woff'); /* Modern browswers */
+}

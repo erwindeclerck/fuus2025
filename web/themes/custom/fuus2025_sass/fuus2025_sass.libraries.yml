@@ -4,6 +4,9 @@ global:
       css/bootstrap.min.css: { weight: -5 }
       css/style.min.css: {}
       css/print.min.css: { media: print }
+      fonts/inter/inter.css: {}
+      fonts/inter_tight/inter_tight.css: {}
+      fonts/monoton/monoton.css: {}
   js:
     node_modules/bootstrap/dist/js/bootstrap.bundle.min.js: {}
     js/global.js: {}
