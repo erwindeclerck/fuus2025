@@ -1,0 +1,89 @@
+/* PART SECTION LISTING  */
+
+.paragraph.paragraph--type--front-listing.paragraph--view-mode--default {min-height: 600px;
+
+  .field.field-field-section-name.field-type-string.field--label-hidden.field--field-section-name-- {
+
+  }
+  .field.field-field-views.field-type-viewsreference.field--label-hidden.field--field-views-- {
+
+    .views-element-container.contextual-region.form-item {
+
+      .viewsreference--view-title {
+
+      }
+
+      .view-content {
+
+        .row {
+          display: flex;
+          flex-direction: row;
+          // gap: 2em;
+          flex-wrap: wrap;
+
+          .even,.odd {
+            // border:1px solid green;
+            width: auto;
+            padding-top: 10px ;
+            padding-bottom: 5px ;
+            .views-field.views-field-fieldset {
+
+              span.field-content {
+
+                .viewsherocanvas {
+                  position: relative;
+                  .views-field.views-field-field-hero {
+
+                    .field-content {
+
+                      a {
+
+                        img.img-fluid {
+
+                        }
+                      }
+                    }
+                  }
+                  .views-field.views-field-field-section{
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                  }
+                  .views-field.views-field-title {
+                    position: absolute;
+                    display: block;
+                    font-size:1.5em;
+                    background: rgba(0,0,0,.3);
+                    z-index: 0;
+                    width: 260px;
+                    bottom: 5px;
+                    left: 0px;
+                    right: 0px;
+                    padding: 10px;
+                    color: white;
+                    pointer-events: none;
+
+                    span.field-content {
+
+                    }
+                  }
+                  .views-field.views-field-nothing{
+                    position: absolute;
+                    right: 5px;
+                    bottom: 5px;
+                    z-index: 2;
+                    i{
+                      color: white;
+                      font-size: 3em;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+}
