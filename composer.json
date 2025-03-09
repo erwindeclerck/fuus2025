@@ -36,6 +36,7 @@
         "drupal/gin": "^4.0",
         "drupal/markup": "^2.0",
         "drupal/material_icons": "^2.0",
+        "drupal/merge_translations": "^2.0",
         "drupal/paragraphs": "^1.19",
         "drupal/paragraphs_bundles": "^1.0",
         "drupal/pdf": "^1.2",

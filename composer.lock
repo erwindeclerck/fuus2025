@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ddb6b5b092f55504aa112751be1ad0f6",
+    "content-hash": "b59ccf92cfdf66ef0843aa591361295f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3083,6 +3083,56 @@
             "support": {
                 "source": "https://www.drupal.org/project/material_icons",
                 "issues": "https://www.drupal.org/project/issues/material_icons"
+            }
+        },
+        {
+            "name": "drupal/merge_translations",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/merge_translations.git",
+                "reference": "2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/merge_translations-2.0.1.zip",
+                "reference": "2.0.1",
+                "shasum": "a8f46b7a4c2ac0cbb6f151dd5facc99abf595b60"
+            },
+            "require": {
+                "drupal/core": "^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.1",
+                    "datestamp": "1738924861",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "lamp5",
+                    "homepage": "https://www.drupal.org/user/2870321",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "miiimooo",
+                    "homepage": "https://www.drupal.org/user/62954"
+                }
+            ],
+            "description": "Allows users to merge node translations.",
+            "homepage": "https://www.drupal.org/project/merge_translations",
+            "support": {
+                "source": "https://cgit.drupalcode.org/merge_translations",
+                "issues": "https://www.drupal.org/project/issues/merge_translations"
             }
         },
         {
