@@ -28,6 +28,7 @@ regions:
   footer_third: 'Footer Third'
   footer_fourth: 'Footer Fourth'
   footer: 'Footer'
+  hidden: 'Hidden'
 
   page_top: 'Page top'
   page_bottom: 'Page bottom'

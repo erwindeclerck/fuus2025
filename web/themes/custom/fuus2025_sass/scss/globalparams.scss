@@ -1,0 +1,104 @@
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
+
+$fuusgreen: var(--FUUS-GREEN,#083704);
+$fgreen: #083704;
+$arrowright: "\e5df";
+$arrowrightangle: "\e315";
+$arrowrightangledouble: "\eac9";
+$arrowrightalt: "\914";
+$arrowrightcircle: "\eaaa";
+
+$page-width: 1400px;
+//@include media-breakpoint-up(lg) {
+//  $page-width: 1400px;
+//
+//}
+:root{
+  --FUUS-GOLD:  #BF9959;
+  --FUUS-GREEN: #083704
+}
+
+body {
+  font-family:  Inter, 'Inter Tight', -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* header */
+
+.shadow {
+  box-shadow: none!important;
+}
+
+
+/* body general */
+
+article {
+  width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-fluid {
+  width: $page-width;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field.field-field-sections > .field-item{
+  //border:1px solid orange;
+  position: relative;
+  left: calc(50% - 50vw);
+  width: 100vw;
+
+  .paragraph{
+    width: $page-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* icons general */
+
+.material-icons-outlined {
+  font-size: 2em;
+  color: white;
+}
+.material-symbols-sharp {
+  font-size: 3em;
+  color: white;
+}
+
+
+/* Video embed button */
+.video-embed-field-lazy-play {
+  height: 76px;
+  width: 76px;
+  left: 50%;
+  top: 50%;
+  margin-left: -36px;
+  margin-top: -36px;
+  position: absolute;
+  background: url("icons/play.svg") no-repeat;
+  cursor: pointer;
+  background-size: 72px 72px;
+}
+
+.field-feeds-item {
+  border: 1px solid green;
+  padding: 5px;
+  &> div > .field-item {
+    border: 1px solid red;
+    padding: 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

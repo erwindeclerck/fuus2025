@@ -1,0 +1,19 @@
+.herocanvas {
+  position: relative;
+  .field-field-hero {}
+  .field-field-section {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+  .field-node-title {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    left: 0;
+    right: 0;
+    padding: 15px 15px 10px;
+    background-color: rgba(255,0,0,0.3);
+  }
+}
+
