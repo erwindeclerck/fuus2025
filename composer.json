@@ -47,6 +47,7 @@
         "drupal/time_field": "^2.1",
         "drupal/token": "^1.15",
         "drupal/video_embed_field": "^2.5",
+        "drupal/views_auto_refresh": "^1.0",
         "drupal/views_fieldsets": "^4.0",
         "drupal/viewsreference": "^2.0@beta",
         "drupal/vvjs": "^1.0",

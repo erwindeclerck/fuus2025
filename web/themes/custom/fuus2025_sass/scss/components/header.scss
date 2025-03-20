@@ -7,3 +7,68 @@
   color: white;
   background: red;
 }
+
+/* UITZONDERING VOOR DE FRONTPAGINA DIE HOGER IS EN VOORLOPIG WEGSCROLT */
+.page-frontpage {
+  header.sticky-top {
+    position: relative;
+    .justify-content-between {
+      height: 400px;
+      .container {}
+    }
+  }
+
+}
+
+.justify-content-between {
+  background-image: url("/sites/default/files/header/2024_COLLIN-7E6A2399.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+  /* LOGO MET DE UNIVERSITAIRE STICHTING IN DRIE TALEN (ZIE OOK HEADER TEMPLATE */
+.logokopje {
+  // border:1px solid yellow;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  span {
+    color: white!important;
+    font-family: 'inter';
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  .block-fuus2025-sass-site-branding {
+    a {
+      margin-right: 0;
+      img {
+      }
+    }
+  }
+}
+
+.coremessage {
+  color: white;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.block-fuus2025-sass-navigationprincipale {
+  margin-top: -24px;
+  margin-bottom: 2em;
+/* MEGAMENU AFBEELDINGEN */
+  .field--body-- img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.block-fuus2025-sass-languageswitcher{
+  a{
+    color: white;
+  }
+}
+

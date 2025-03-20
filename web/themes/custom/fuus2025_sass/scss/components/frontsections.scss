@@ -3,8 +3,6 @@
 Front sections
  */
 
-/** front sections algemeen */
-
 .field-field-sections {
   > .field-item {
     &:nth-child(odd) {
@@ -25,6 +23,8 @@ Front sections
       flex-wrap: nowrap;
       justify-content: flex-start;
 
+      /* GEROTEERDE SECTIENAMEN */
+
       .field-field-section-name {
         color: var(--FUUS-GOLD, #BF9959);
         text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
@@ -36,20 +36,21 @@ Front sections
         text-transform: uppercase;
 
         position: absolute;
-        bottom: 50px;
+        bottom: 56px;
         // width:200px;
         transform-origin: bottom left;
         transform: translateX(-00px) translatey(0px) rotate(-90deg);
       }
 
+/* SECTION HEROES */
       .herocanvas {
         position: relative;
         .field-field-section-icon i {
           color: white;
           font-size: 3em;
           position: absolute;
-          top: 5px;
-          left: 5px;
+          top: 10px;
+          left: 10px;
         }
         .field-field-section-hero {
           width: 400px;
@@ -72,9 +73,8 @@ Front sections
         }
 
       }
-      .field-field-section-bullets {
-        // background-color: pink;
-      }
+
+/* SECTION LINKS */
       .field-field-section-links {
         .field-item {
           // padding: unset;
@@ -108,8 +108,7 @@ Front sections
   }
 }
 
-
-
+/* EERSTE BLOKKEN MET LIJSTEN VAN EVENEMENTEN */
 .paragraph.paragraph--type--front-listing {
   min-height: 600px;
 
@@ -157,10 +156,26 @@ Front sections
                   top: 5px;
                   left: 5px;
                 }
+
+                .views-field.views-field-field-event-start {
+                  color: var(--FUUS-GOLD);
+                  color: white;
+                  text-shadow: 1px 1px 2px black;
+                  text-align: center;
+                  font-family: 'Inter Tight';
+                  font-weight: bold;
+                  font-size: 1.4em;
+                  position: absolute;
+                  bottom: 45%;
+                  left: 5px;
+                  right: 5px;
+                }
+                .field-content time {}
                 .views-field.views-field-title {
                   position: absolute;
                   display: block;
-                  font-size: 1.5em;
+                  font-size: 1.3em;
+                  font-weight: bold;
                   line-height: 1.2;
                   background: rgba(0,0,0,.3);
                   z-index: 0;
@@ -170,31 +185,32 @@ Front sections
                   right: 0;
                   padding: 10px;
                   color: white;
+                  text-shadow: 1px 1px 2px black;
                   pointer-events: none;
 
                   span.field-content {}
                 }
                 .views-field.views-field-nothing {
                   position: absolute;
-                  right: 5px;
-                  top: 5px;
+                  right: 10px;
+                  top: 10px;
                   z-index: 2;
                   i {
                     color: white;
                     font-size: 3em;
                   }
                   pointer-events: none;
-                  opacity:0.1;
+                  opacity: 0.1;
                   text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
                   transition: opacity 0.5s;
                 }
               }
             }
-            &:hover{
-              img{
+            &:hover {
+              img {
                 transform: scale(1.2);
               }
-              .views-field.views-field-nothing{
+              .views-field.views-field-nothing {
                 opacity: 1!important;
               }
             }
@@ -205,7 +221,7 @@ Front sections
     }
   }
 
-  /* all upcoming */
+  /* ALL UPCOMING LINK */
   .more-link {
     position: absolute;
     font-size: 2em;
@@ -224,3 +240,5 @@ Front sections
     }
   }
 }
+
+

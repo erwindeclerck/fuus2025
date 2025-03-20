@@ -13,7 +13,66 @@
     left: 0;
     right: 0;
     padding: 15px 15px 10px;
-    background-color: rgba(255,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
   }
 }
 
+
+.page-node-type-event{
+  .field{
+    margin-bottom: 2em;
+  }
+}
+
+
+
+
+
+.view-events{
+  padding:1em;
+  background-color:#eee;
+  .view-content{
+    .views-view-responsive-grid{
+      .views-view-responsive-grid__item{
+        background-color:#fff;
+        fieldset{
+          padding: 1em;
+          position: relative;
+          .views-field-field-hero{
+
+          }
+          .views-field-title{
+            font-size: 1.2em;
+          }
+          .views-field-field-section{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            ul{
+              list-style-type: none;
+              padding: 0;
+              margin:o;
+              li{
+                i{
+                  font-size:1.8em;
+                }
+              }
+            }
+          }
+          .views-field-field-event-start{
+            position: absolute;
+            top: 100px;
+            left: 20px;
+            right: 20px;
+            text-align: center;
+            color: white;
+            font-size: 2em;
+            font-family: 'inter tight';
+            text-shadow: 1px 1px 2px black;
+          }
+        }
+      }
+    }
+
+  }
+}

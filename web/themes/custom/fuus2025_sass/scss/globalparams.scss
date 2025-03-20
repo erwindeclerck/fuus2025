@@ -9,9 +9,10 @@ $arrowrightalt: "\914";
 $arrowrightcircle: "\eaaa";
 
 $page-width: 1400px;
-//@include media-breakpoint-up(lg) {
-//  $page-width: 1400px;
-//
+//@include media-breakpoint-up(sm) {
+//  .custom-class {
+//    display: block;
+//  }
 //}
 :root{
   --FUUS-GOLD:  #BF9959;
@@ -30,32 +31,32 @@ body {
 
 
 /* body general */
-
-article {
-  width: $page-width;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.container-fluid {
-  width: $page-width;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.field.field-field-sections > .field-item{
-  //border:1px solid orange;
-  position: relative;
-  left: calc(50% - 50vw);
-  width: 100vw;
-
-  .paragraph{
-    width: $page-width;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
+//
+//article {
+//  width: $page-width;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
+//
+//.container-fluid {
+//  width: $page-width;
+//  margin-left: auto;
+//  margin-right: auto;
+//}
+//
+//.field.field-field-sections > .field-item{
+//  //border:1px solid orange;
+//  position: relative;
+//  left: calc(50% - 50vw);
+//  width: 100vw;
+//
+//  .paragraph{
+//    width: $page-width;
+//    margin-left: auto;
+//    margin-right: auto;
+//  }
+//}
+//
 
 /* icons general */
 

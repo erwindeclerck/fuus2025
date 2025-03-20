@@ -166,17 +166,27 @@
           </div>
         </div>
       </div>
+
     {% elseif header_style == 'style-2-fuus' %}
       <div class="header-{{header_style}} navbar {{header_navbar_dark}} navbar-expand-lg flex-column p-0">
         <div class="justify-content-between py-2 w-100">
           <div class="{{ container }}">
+
             <div class="row align-items-center">
-              <div class="col-6 col-sm-4">
+              <div class="col-5 col-sm-4">
+              </div>
+              <div class="col-2 col-sm-4 logokopje">
                 {% if page.header %}
-                  {{ page.header }}
+                  {% if language.getId() == 'en' %}<span class="left">UNIVERSITY</span>{% endif %}
+                  {% if language.getId() == 'nl' %}<span class="left">UNIVERSITAIRE</span>{% endif %}
+                  {% if language.getId() == 'fr' %}<span class="left">FONDATION</span>{% endif %}
+                   {{ page.header }}
+                  {% if language.getId() == 'en' %}<span class="right">FOUNDATION</span>{% endif %}
+                  {% if language.getId() == 'nl' %}<span class="right">STICHTING</span>{% endif %}
+                  {% if language.getId() == 'fr' %}<span class="right">UNIVERSITAIRE</span>{% endif %}
                 {% endif %}
               </div>
-              <div class="col-6 col-sm-8">
+              <div class="col-5 col-sm-4">
                 <div class="d-flex justify-content-end">
                   <div class="d-none d-lg-block">
                     {% if page.search %}
@@ -197,6 +207,23 @@
                 </div>
               </div>
             </div>
+
+            <div class="row align-items-center">
+              <div class=" col-2">&nbsp;</div>
+              <div class="col-8 coremessage" >
+                <p>A meeting place for academics and the civil society<br>
+                Support for scientific research in Belgium<br>
+                Organisation of scientific, academic and cultural events<br>
+                A wide range of meeting rooms provided with the latest audio-visual and streaming technology<br>
+                Exclusive in house restaurant and catering as well as 10 quality hotel rooms<br>
+                  A home for national ad international academic organisations</p>
+              </div>
+              <div class="col-2">&nbsp;</div>
+            </div>
+
+
+
+
           </div>
         </div>
         <div class="{{header_navbar_bg}} w-100 d-none d-lg-block">
@@ -216,6 +243,7 @@
         </div>
       </div>
 		{% elseif header_style == 'style-3' %}
+
 			<div class="header-{{header_style}} navbar {{header_navbar_dark}} flex-column p-0">
 				<div class="justify-content-between py-2 w-100">
 					<div class="{{ container }}">
